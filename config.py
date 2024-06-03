@@ -11,7 +11,7 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7306845626:AAGqFgNtR32lAwXlQ9wH93wc9zeQ3AjbzLQ") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot-premium") 
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority")
-    DB_NAME = os.environ.get("DB_NAME", "")
+    DB_NAME = os.environ.get("DB_NAME", "Stubborn")
     OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '6235754855').split()]
 
 
