@@ -10,7 +10,7 @@ class Config:
     API_HASH = os.environ.get("API_HASH", "e78c151d670ab33c5f7f731027c5ab26")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7306845626:AAGqFgNtR32lAwXlQ9wH93wc9zeQ3AjbzLQ") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot-premium") 
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://pikujha69:2HoYeUDPRJCwvXvE@cluster0.rnn5bqv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DB_NAME = os.environ.get("DB_NAME", "Stubborn")
     OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '6235754855').split()]
 
